@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="5px"
+    android:padding="5px"
+    android:background="@color/aqua"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:textAlignment="center"
+        android:textSize="25sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/username"
+        android:paddingHorizontal="10px"
+        android:textColorHint="@color/colorPrimary"
+        android:inputType="textEmailAddress"
+        android:id="@+id/txtUsername"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:maxLength="8"
+        android:id="@+id/txtPassword"
+        android:paddingHorizontal="10px"
+        android:hint="@string/passwords"
+        android:textColorHint="@color/colorPrimary"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10px">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textAllCaps="false"
+            android:id="@+id/btnLogin"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="10px"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:id="@+id/btnCacel"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="10px"/>
+    </LinearLayout>
+</LinearLayout>

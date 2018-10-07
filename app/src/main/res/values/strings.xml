@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">KP_Project</string>
+    <string name="hello">Hello World</string>
+    <string name="app_n">First App</string>
+    <string name="username">Username</string>
+    <string name="passwords">Password</string>
+
+</resources>
